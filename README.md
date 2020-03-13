@@ -1,4 +1,4 @@
-# WQD7005DataMining-Assignments
+# WQD7005 Data Mining Course Assignments
 This repository comprises of my Data Mining course group assignments for Master of Data Science in University of Malaya...
 
 # Group Members:
