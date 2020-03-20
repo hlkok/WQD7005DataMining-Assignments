@@ -1,0 +1,67 @@
+# --------------------------------------------------------------------------------------------------------------------
+# WQD7005 Data Mining
+# Assignment Part B: Management of Data using Data Warehouse or Data Lake
+# Group Members: Azwa b. Kamaruddin (WQD170089)
+#                Kok Hon Loong (WQD170086)
+# Development Platform: Google Cloud Platform (GCP) using Hadoop Data Warehouse to store the data crawl from websites
+#                       and Hive SQL-like script to query and analyze the data 
+#---------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------
+# Section 1: To upload crawl datasets from website to Hadoop HDFS
+#----------------------------------------------------------------
+
+hdfs dfs -cp gs://wqd7005dm_covid19/t_confirmed_cases_asean.csv /user/honloong
+
+hdfs dfs -cp gs://wqd7005dm_covid19/t_confirmed_cases_china_combined.csv /user/honloong
+
+hdfs dfs -cp gs://wqd7005dm_covid19/time_series_19-covid-Confirmed.csv /user/honloong
+
+hdfs dfs -cp gs://wqd7005dm_covid19/time_series_19-covid-Deaths.csv /user/honloong
+
+hdfs dfs -cp gs://wqd7005dm_covid19/time_series_19-covid-Recovered.csv /user/honloong
+
+#----------------------------------------------------------
+# Section 2: To view the datasets uploaded into Hadoop HDFS
+#----------------------------------------------------------
+
+hdfs dfs -ls /user/honloong *
+
+#---------------------------------------------------------------------
+# Section 3: To use Hive SQL-like script to create table in Hive shell
+#---------------------------------------------------------------------
+
+CREATE TABLE asean_confirmed_cases
+(CaseDate STRING,
+Thailand INT,
+Singapore INT,
+Malaysia INT,
+Cambodia INT,
+Philippines INT,
+Indonesia INT,
+Brunei INT,
+Vietnam INT)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+#---------------------------------------------------------------------------------------------------------------------
+# Section 4: The following code is to load the dataset into the table created using Hive SQL-like script in Hive shell
+#---------------------------------------------------------------------------------------------------------------------
+
+LOAD DATA INPATH '/user/honloong/t_confirmed_cases_asean.csv'
+OVERWRITE INTO TABLE asean_confirmed_cases;
+
+#---------------------------------------------------------------------------------------
+# Section 5: To view the records in the dataset using Hive SQL-like script in Hive shell
+#---------------------------------------------------------------------------------------
+
+SELECT * FROM asean_confirmed_cases; 
+
+SELECT CaseDate, Malaysia FROM asean_confirmed_cases;
+
+#-----------------------------------------------------------------------
+# Section 6: To use Hive SQL-like script to drop the table in Hive shell
+#-----------------------------------------------------------------------
+
+DROP TABLE IF EXISTS asean_confirmed_cases;
