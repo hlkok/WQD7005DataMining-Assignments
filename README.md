@@ -9,3 +9,6 @@ Kok Hon Loong (WQD170086) - https://github.com/hlkok/WQD7005DataMining-Assignmen
 # Media Contents:
 Part A - Web Crawling using Python for real-time data video can be view in Youtube at this link:
 https://youtu.be/CBp2lqlPEE4
+
+Part B - Managing Data Acquired from Web Crawling into Data Warehouse or Data Lake video can be view in Youtube at this link: https://www.youtube.com/watch?v=bOIPl31EeW8
+
