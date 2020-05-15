@@ -12,4 +12,4 @@ https://youtu.be/CBp2lqlPEE4
 
 (Milestone 2) Part B - Managing Data Acquired from Web Crawling into Data Warehouse or Data Lake video can be view in Youtube at this link: https://youtu.be/bOIPl31EeW8
 
-(Milestone 3) Part C - Accessing and Processing of Data from Hadoop Data Warehouse or Data Lake using Python video can be view in Youtube at this link: https://youtu.be/bOIPl31EeW8
+(Milestone 3) Part C - Accessing and Processing of Data from Hadoop Data Warehouse or Data Lake using Python video can be view in Youtube at this link: https://youtu.be/dABP7iNIfhE
