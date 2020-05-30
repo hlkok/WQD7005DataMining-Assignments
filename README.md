@@ -3,6 +3,7 @@ This repository comprises of my Data Mining course group assignments for Master 
 
 # Group Members:
 Azwa bin Kamaruddin (WQD170089) - https://github.com/scholarazwa/wqd7005-assignment
+
 Part A: Data Acquisition (Web crawling online real time data):
 https://youtu.be/NuFkMxcBtDU
 
