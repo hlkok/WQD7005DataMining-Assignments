@@ -3,6 +3,17 @@ This repository comprises of my Data Mining course group assignments for Master 
 
 # Group Members:
 Azwa bin Kamaruddin (WQD170089) - https://github.com/scholarazwa/wqd7005-assignment
+Part A: Data Acquisition (Web crawling online real time data):
+https://youtu.be/NuFkMxcBtDU
+
+Part B: Data Management (Storing crawled data into a Data Warehouse):
+https://youtu.be/Ge8-WLQQqb4
+
+Part C: Data Processing (Accessing data from Data Lake):
+https://youtu.be/5KzqbdMWl8M
+
+Part D: Interpretation and Communication of the Data Insights:
+{ To be uploaded soon }
 
 Kok Hon Loong (WQD170086) - https://github.com/hlkok/WQD7005DataMining-Assignments
 
