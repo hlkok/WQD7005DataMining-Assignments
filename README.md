@@ -1,5 +1,5 @@
 # WQD7005 Data Mining Course Assignments
-This repository comprises of my Data Mining course group assignments for Master of Data Science in University of Malaya...
+This repository comprises of my Data Mining course group assignments for Master of Data Science in University of Malaya.Our group have chosen COVID-19 as the topic to perform our course assignments milestone.
 
 # Group Members:
 Azwa bin Kamaruddin (WQD170089) - https://github.com/scholarazwa/wqd7005-assignment
