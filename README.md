@@ -15,3 +15,5 @@ https://youtu.be/CBp2lqlPEE4
 (Milestone 3) Part C - Accessing and Processing of Data from Hadoop Data Warehouse or Data Lake using Python video can be view in Youtube at this link: https://youtu.be/dABP7iNIfhE
 
 (Milestone 4) Part D - Interpretation and Communication of the Data Insights video can be view in Youtube at this link: https://youtu.be/pBC27vvA2-c
+
+(Milestone 5) Part E - Deployment of Mobile Application using Kivy and Python video can be view in Youtube at this link: https://youtu.be/vncBdJ22DII
