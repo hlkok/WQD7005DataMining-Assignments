@@ -19,4 +19,4 @@ https://youtu.be/CBp2lqlPEE4
 (Milestone 5) Part E - Deployment of Mobile Application using Kivy and Python video can be view in Youtube at this link: https://youtu.be/vncBdJ22DII
 
 
-![Test Image 1](https://github.com/hlkok/WQD7005DataMining-Assignments/blob/master/WQD7005-Assignment_VideoPresentation_YouTube.png)
+![Test Image 1](https://github.com/hlkok/WQD7005DataMining-Assignments/blob/master/WQD7005-Assignment_VideoPresentationYouTube.png)
